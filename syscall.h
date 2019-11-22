@@ -20,3 +20,20 @@
 #define SYS_link   19
 #define SYS_mkdir  20
 #define SYS_close  21
+
+// set environment variable PATH
+#define SYS_set_global_path     22
+
+// get history command
+#define SYS_history             23
+
+// signal command
+#define SYS_signal              24
+
+// set priority
+#define SYS_set_prio            25
+
+// yield
+#define SYS_sys_yield           26
+
+#define SYS_wait2               27
